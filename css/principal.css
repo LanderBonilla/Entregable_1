@@ -1,0 +1,18 @@
+main{
+    float:left;
+    width: 700px;
+}
+aside{
+    float:right;
+    position: sticky;
+    width: 215px;
+    height: 70%;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    color: #FFFFFF !important;
+}
+p{
+    text-align: justify;
+}
