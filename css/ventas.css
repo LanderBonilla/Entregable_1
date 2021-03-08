@@ -5,7 +5,6 @@ TABLE {
     border: 3px solid purple;
   }
   
-
   th, td {
     padding: 20px;
   }
@@ -28,4 +27,21 @@ TABLE {
   
   tfoot th {
     text-align: right;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #ff3366;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f78dad;
+  }
+    
+  caption {
+    font-family: 'Rock Salt', cursive;
+    padding: 20px;
+    font-style: italic;
+    caption-side: bottom;
+    color: #666;
+    text-align: right;
+    letter-spacing: 1px;
   }
