@@ -49,7 +49,10 @@ header div ul li a{
     width: 100%;
     margin-top: 10px;
 }
-
+footer{
+    background-color: rgb(211, 207, 207);
+    height: 100px;
+}
 #correo{
     display: block;
     background: url("../imagenes/Gmail-Logo.png");
