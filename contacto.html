@@ -30,10 +30,26 @@
        </a>
     </nav>
     <main>
-    </main>
-    <aside>
+      <form action="server.php" target="" method="post" name="formDatosPersonales">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"/>
       
-    </aside>
+        <label for="apellidos">Apellidos</label>
+        <input type="text" name="apellidos" id="apellidos" placeholder="Apellido"/>
+      
+        <label for="email" >Email</label>
+        <input type="email" name="email" id="email" placeholder="Email" required />
+      
+        <label for="asunto">Asunto</label>
+        <input type ="text" name="asunto" id="asunto" placeholder="Titular de la consulta"/>
+      
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" for="mensaje" placeholder="Describe brevemente (300 carácteres)" maxlength="300"></textarea>
+        
+        <input type="submit" name="enviar" value="enviar datos"/>
+      </form>
+    </main>
     <footer>
       <div><p>Página creada por <strong>Lander Bonilla Viana</strong></p></div>
       <div>
